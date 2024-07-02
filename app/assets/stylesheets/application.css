@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+/* Styles généraux pour la page */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Styles pour le titre de la page */
+h1 {
+  color: #333;
+}
+
+/* Styles pour la liste des tâches */
+.task-list {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Styles pour chaque tâche */
+.task-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+/* Styles pour le titre de la tâche */
+.task-title {
+  font-size: 18px;
+}
+
+/* Styles pour le bouton de suppression */
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
